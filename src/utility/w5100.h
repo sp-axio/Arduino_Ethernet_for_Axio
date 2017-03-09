@@ -344,7 +344,7 @@ private:
       inline static void setSS()     { PORTB &= ~_BV(2); };
       inline static void resetSS()   { PORTB |=  _BV(2); };
     #endif
-  #elif defined(__ARDUINO_ARC__)
+  #elif defined(__ARDUINO_ARC__) || defined(AXIO_BUILDER)
 	inline static void initSS() { pinMode(10, OUTPUT); };
 	inline static void setSS() { digitalWrite(10, LOW); };
 	inline static void resetSS() { digitalWrite(10, HIGH); };
@@ -366,6 +366,7 @@ private:
 };
 
 extern W5100Class W5100;
+extern SPIClass SPI;
 
 uint8_t W5100Class::readSn(SOCKET _s, uint16_t _addr) {
   return read(CH_BASE + _s * CH_SIZE + _addr);
