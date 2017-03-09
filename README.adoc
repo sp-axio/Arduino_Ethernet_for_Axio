@@ -26,7 +26,8 @@ With the Arduino Ethernet Shield, this library allows an Axio-Builder to connect
 * Copy 'w5100.h' file from 'src/utility' and overwrite to your default Ethernet library 'libraries/Ethernet/src/utility/w5100.h'.
 
 * Connect Ethernet Shield to Axio-Builder with jumper wires as shown below.
-![w5100](./eth_w5100_axio.png "w5100 Ethernet shield connect to Axio-Builder")
+
+![w5100 arduino shield](https://raw.githubusercontent.com/sp-axio/Arduino_Ethernet_for_Axio/master/eth_w5100_axio.png "w5100 Ethernet shield connect to Axio-Builder")
 
 Note:
 * W5100 Ethernet shield uses ICSP pins(SPI) to communicate with the Axio-Builder(Arduino).
