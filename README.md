@@ -1,3 +1,7 @@
+Ethernet Library for Axio-Builder [![Linux build status](https://travis-ci.org/sp-axio/Arduino_Ethernet_for_Axio.svg?branch=master)](https://travis-ci.org/sp-axio/Arduino_Ethernet_for_Axio)
+=================================
+
+
 == License ==
 
 Copyright (c) 2010 Arduino LLC. All right reserved.
@@ -33,3 +37,4 @@ Note:
 * W5100 Ethernet shield uses ICSP pins(SPI) to communicate with the Axio-Builder(Arduino).
 * Digital pin 10 is used to SPI SSN.
 * This code was tested by the DFRobut Ethernet Shield v2.2.
+* Axio-Builder does not support analogRead() which used in 'examples/WebServer/WebServer.ino'.
