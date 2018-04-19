@@ -33,6 +33,8 @@ With the Arduino Ethernet Shield, this library allows an Axio-Builder to connect
 
 ![w5100 arduino shield](https://raw.githubusercontent.com/sp-axio/Arduino_Ethernet_for_Axio/master/eth_w5100_axio.png "w5100 Ethernet shield connect to Axio-Builder")
 
+![w5100 arduino module](https://raw.githubusercontent.com/sp-axio/Arduino_Ethernet_for_Axio/master/wiz811mj_axio.png "w5100 Ethernet module connect to Axio-Builder")
+
 Note:
 * W5100 Ethernet shield uses ICSP pins(SPI) to communicate with the Axio-Builder(Arduino).
 * Digital pin 10 is used to SPI SSN.
